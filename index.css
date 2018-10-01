@@ -1,0 +1,174 @@
+.searchForm {
+  padding-left: 10px;
+  width: 150px;
+  height: 35px;
+  float: right;
+  border: 1px solid rgba(37, 36, 36, 0.404);
+  border-radius: 10px;
+  outline: none;
+  transition-duration: 0.7s;
+}
+
+.searchForm:hover {
+  width: 250px;
+  transition: width ease-in-out 0.7s;
+}
+
+#search {
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#team-container {
+  width: 33.33%;
+  float: left;
+  min-height: 100%;
+}
+
+#player-container {
+  width: 33.33%;
+  float: left;
+  min-height: 100%;
+  text-align: center;  
+}
+
+#player-info-container {
+  width: 33.33%;
+  float: left;
+  min-height: 100%; 
+  }
+
+#hint {
+  height: 195px;
+  display: none;
+  padding: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font: 100% "Century Gothic", Futura, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+} 
+
+.tit { 
+  font-weight: bold;
+  color: rgb(80, 79, 79);
+}
+
+.team-name {
+  font: 150% "Century Gothic", Futura, sans-serif;
+  font-weight: bold;
+} 
+
+.team-info {
+  position: relative;
+}
+
+.team-list {
+  list-style: none;
+  column-count: 2;
+}
+
+.team-logo {
+  width: 60%;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+.team-logo:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.players-list {
+  display: inline-block;
+  cursor: pointer;  
+  list-style: none;   
+}
+
+.player-from-list {
+  font-size: 170%;
+  font: "Century Gothic", Futura, sans-serif; 
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.player {
+  /*position: fixed;*/
+  text-align: center;
+}
+
+.player-photo {
+  width: 300px;
+}
+
+.player-name {
+  font-size: 30pt;
+  font-weight: 400; 
+  text-align: center;   
+}
+
+.player-info {
+  padding-top: 20px;
+  padding-left: 50px;
+  /*position: fixed;*/
+  text-align: left;
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+.box-header {
+  padding: 15px;
+  font: 180% "Century Gothic", Futura, sans-serif; 
+  text-align: center; 
+}
+
+.FAbutton {
+  position: relative;
+  padding: 5px;
+  background-color: rgba(253, 244, 244, 0.404);
+  font: 11px "Century Gothic", Futura, sans-serif;
+  font-weight: 1000;
+  border: 2px solid rgba(15, 15, 15, 0.1); 
+  border-radius: 9px;
+  font-weight: lighter;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+}
+
+.close-button {
+  margin-top: 20px;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+
+.optional {
+  font: 50% "Century Gothic", Futura, sans-serif;   
+}
+
+.list {
+text-align: center;
+cursor: pointer;
+margin: 10px;
+padding: 10px;
+list-style: none;
+font: 14px "Century Gothic", Futura, sans-serif;
+border: 2px solid rgba(106, 107, 104, 0.1);
+border-radius: 13px;
+display: inline-block;
+}
+
+
+
